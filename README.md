@@ -3,7 +3,7 @@ Fuse LiDAR and Camera data using the KITTI open dataset, with the results as fol
 https://www.bilibili.com/video/BV12PcFePEFt/?spm_id_from=333.1365.list.card_archive.click&vd_source=f5c7bca2e6a1c91f48cbe5e62aae458a
 
 
-#Late Fusion: First Detect, Then Fuse
+Late Fusion: First Detect, Then Fuse
 
 This method first detects obstacles in 2D images using YOLOv4 and assumes that the 3D LiDAR obstacles' positions \((X, Y, Z)\), 3D bounding boxes \((W, H, L)\), and orientations \(R_y\) are already available. Then, the 3D obstacles are projected onto the image through the following steps:  
 
